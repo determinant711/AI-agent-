@@ -1,7 +1,7 @@
 ---
 learner: "同学"
 target_role: "AI Agent 开发工程师"
-start_date: ""
+start_date: "2026-11-01"
 timezone: "Asia/Shanghai"
 daily_minutes: 75
 days_per_week: 6
