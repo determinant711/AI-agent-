@@ -4,9 +4,8 @@
 - 远程：`https://github.com/determinant711/AI-agent-.git`
 - 分支：`main`
 - 最近尝试：2026-11-01
-- 本地 commit：`d145a8e`（`chore(setup): 初始化学习仓库`）
-- 失败原因：当前环境没有可用的 GitHub 凭据，`git push` 无法读取用户名；
-  credential helper 在当前沙箱中启动失败
+- 本地 commit：已提交 setup 与同步状态；最新 hash 以 `git log -1` 为准
+- 失败原因：当前环境没有可用的 GitHub 凭据；默认沙箱下 credential helper 也无法启动
 - 下一步：在普通终端执行 `gh auth login`（或配置 Git Credential Manager /
   SSH key），然后运行 `git push -u origin main`
 
