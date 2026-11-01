@@ -10,7 +10,7 @@ level: "零基础"
 repo_path: "study-repo"
 remote: "https://github.com/determinant711/AI-agent-.git"
 branch: "main"
-visibility: "private"
+visibility: "public"
 current_day: 0
 report_count: 0
 last_report: ""

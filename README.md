@@ -12,6 +12,8 @@
 - 首次配置：未完成
 - 当前 Day：0
 - 最近报告：—
+- GitHub：已绑定 `determinant711/AI-agent-`，本地已提交；push 尚未完成
+- 仓库可见性：**public**（如不希望公开，请先在 GitHub 改为 private）
 
 ## 目录
 
@@ -38,19 +40,23 @@ notes/               # 自由笔记
 5. 更新 `daily`、`mistakes`、`mastery`、`index`。
 6. 提交并推送到 GitHub；失败会如实说明。
 
-## GitHub 首次绑定
+## GitHub 绑定
 
-在 GitHub 新建一个空仓库（建议 private），然后在本目录执行：
+当前远程仓库：
+
+```text
+https://github.com/determinant711/AI-agent-.git
+```
+
+本地已初始化并提交，但 push 尚未完成。先完成 GitHub 认证（`gh auth login`、
+Git Credential Manager 或 SSH key），然后执行：
 
 ```bash
-git init -b main
-git remote add origin <你的仓库 URL>
-git add .
-git commit -m "chore(setup): 初始化学习仓库"
 git push -u origin main
 ```
 
-认证建议用 `gh auth login` 或 SSH，不要把 token 写进 URL。
+该仓库目前是 **public**。如果不希望学习记录公开，请先在 GitHub 仓库设置里改为 private。
+不要把 token 写进 URL。
 
 ## 隐私
 
